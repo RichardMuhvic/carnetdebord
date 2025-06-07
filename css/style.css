@@ -1,0 +1,199 @@
+body {
+  background-color: #060A0D;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, ul, nav, a, p, span {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #FBFBFB;
+}
+
+p, span {
+  /*font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;*/
+  font-weight: normal;
+  font-style: normal;
+  color: #060A0D;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4.5em;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 10px 0 10px;
+}
+.header__button {
+  width: 40%;
+}
+.header__button button {
+  width: 200px;
+  padding: 10px;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.header .logo {
+  font-family: "Nothing You Could Do", cursive;
+  font-style: normal;
+  font-weight: 400;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  font-size: 3em;
+  width: 40%;
+}
+.header__nav {
+  display: flex;
+  position: -20px;
+  font-size: 0.9em;
+  width: 40%;
+  min-width: 350px;
+  justify-content: space-between;
+}
+.header__nav li {
+  list-style-type: none;
+}
+.header__nav a {
+  text-decoration: none;
+  font-weight: normal;
+}
+.header .box {
+  display: flex;
+  align-items: center;
+}
+
+.header-banner {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  height: 600px;
+  background-image: url(/images/face_aux_montagnes.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-banner__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  z-index: 10;
+}
+.header-banner__title h1 {
+  font-family: "Nothing You Could Do", cursive;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 2px;
+}
+.header-banner__title h2 {
+  text-align: left;
+  margin: 0 auto;
+  width: fit-content;
+  left: 50px;
+  letter-spacing: 1.5cqmax;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main h2 {
+  margin: 40px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  background-color: #FBFBFB;
+  width: 70%;
+  border-radius: 20px;
+  padding: 40px;
+}
+.post .post__title {
+  color: #060A0D;
+  text-align: center;
+}
+.post .post__article {
+  display: flex;
+  flex-direction: row;
+}
+.post .post__article .post__img {
+  width: 40%;
+  padding: 10px;
+}
+.post .post__article .post__img img {
+  width: 100%;
+}
+.post .post__article .post__text {
+  width: 60%;
+  padding: 10px;
+  color: #060A0D;
+}
+
+.container {
+  background-color: #060A0D;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+.container__product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FBFBFB;
+  width: 400px;
+  height: 200px;
+  border: 7px solid #FBFBFB;
+  margin: 100px;
+}
+.container__product .price a {
+  text-decoration: none;
+}
+.container__product .price p {
+  font-family: "Roboto", sans-serif;
+  color: #FBFBFB;
+  font-size: 2em;
+  margin: 0;
+}
+
+footer .icon {
+  display: flex;
+  flex-direction: row;
+  color: #FBFBFB;
+}
+footer .icon__twitter, footer .icon__instagram, footer .icon__github {
+  width: 40px;
+  height: 40px;
+  color: #FBFBFB;
+}
+
+/*# sourceMappingURL=style.css.map */
